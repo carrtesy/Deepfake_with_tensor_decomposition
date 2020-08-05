@@ -1,10 +1,10 @@
-# Deepfake_with_tensor_decomposition
+# Deepfake with tensor decomposition
 
 Summer 2020, Internship at DASH Laboratory, SKKU
 
 Searching for Deepfake Detection Algorithm using Tensor Decomposition
 
-Dive into Dataset
+## Dive into Dataset
 
 - Visualize & Analyze
 	<https://github.com/dongminkim0220/Deepfake_with_tensor_decomposition/blob/master/tensor_dcmp_data_dsc.ipynb>
@@ -12,9 +12,9 @@ Dive into Dataset
 - Image Dataset Creation
 	<https://github.com/dongminkim0220/Deepfake_with_tensor_decomposition/blob/master/Tensor_Image_Creation.ipynb>
 	
-Experiments
+## Experiments
 
-Configurations
+***Configurations***
 
 - Dataset Composition
 
@@ -39,7 +39,7 @@ Configurations
 |metrics|accuracy<br>recall<br>precision<br>f1|
 |Callbacks|checkpointing<br>cyclical LR-exp_range(1e-3 ~ 7e-3)|	
 
-Baseline
+***Baseline***
 |	|Precision|Recall|F1|
 |---|:---:|:---:|---:|
 |REAL|0.78|0.94|0.85|

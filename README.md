@@ -40,6 +40,7 @@ Searching for Deepfake Detection Algorithm using Tensor Decomposition
 |Callbacks|checkpointing<br>cyclical LR-exp_range(1e-3 ~ 7e-3)|	
 
 ***Baseline***
+<https://github.com/dongminkim0220/Deepfake_with_tensor_decomposition/blob/master/tensor_dcmp_baseline.ipynb>
 |	|Precision|Recall|F1|
 |---|:---:|:---:|---:|
 |REAL|0.78|0.94|0.85|
@@ -52,6 +53,7 @@ Searching for Deepfake Detection Algorithm using Tensor Decomposition
 ![baseline loss](https://github.com/dongminkim0220/Deepfake_with_tensor_decomposition/blob/master/graphs/baseline_loss.png)
 
 ***TK with rank = [30, 30, 3]***
+<https://github.com/dongminkim0220/Deepfake_with_tensor_decomposition/blob/master/tensor_dcmp_TK.ipynb>
 |	|Precision|Recall|F1|
 |---|:---:|:---:|---:|
 |REAL|0.77|0.94|0.85|
@@ -64,6 +66,7 @@ Searching for Deepfake Detection Algorithm using Tensor Decomposition
 ![tk loss](https://github.com/dongminkim0220/Deepfake_with_tensor_decomposition/blob/master/graphs/tk_loss.png)
 
 ***TK_diff***
+<https://github.com/dongminkim0220/Deepfake_with_tensor_decomposition/blob/master/tensor_dcmp_TK_diff.ipynb>
 |	|Precision|Recall|F1|
 |---|:---:|:---:|---:|
 |REAL|0.76|0.6|0.67|

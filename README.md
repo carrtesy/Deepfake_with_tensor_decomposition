@@ -50,3 +50,27 @@ Searching for Deepfake Detection Algorithm using Tensor Decomposition
 
 ![baseline accuracy](https://github.com/dongminkim0220/Deepfake_with_tensor_decomposition/blob/master/graphs/baseline_acc.png)
 ![baseline loss](https://github.com/dongminkim0220/Deepfake_with_tensor_decomposition/blob/master/graphs/baseline_loss.png)
+
+***TK with rank = [30, 30, 3]***
+|	|Precision|Recall|F1|
+|---|:---:|:---:|---:|
+|REAL|0.77|0.94|0.85|
+|FAKE|0.92|0.71|0.81|
+|AUROC|0.940521|||
+|THRESH|0.0516793727880219|||
+|TOTAL ACCURACY|0.8285|||
+
+![tk accuracy](https://github.com/dongminkim0220/Deepfake_with_tensor_decomposition/blob/master/graphs/tk_acc.png)
+![tk loss](https://github.com/dongminkim0220/Deepfake_with_tensor_decomposition/blob/master/graphs/tk_loss.png)
+
+***TK_diff***
+|	|Precision|Recall|F1|
+|---|:---:|:---:|---:|
+|REAL|0.76|0.6|0.67|
+|FAKE|0.67|0.81|0.74|
+|AUROC|0.78239|||
+|THRESH|0.628564715385419|||
+|TOTAL ACCURACY|0.708|||
+
+![tk diff accuracy](https://github.com/dongminkim0220/Deepfake_with_tensor_decomposition/blob/master/graphs/tk_diff_acc.png)
+![tk diff loss](https://github.com/dongminkim0220/Deepfake_with_tensor_decomposition/blob/master/graphs/tk_diff_loss.png)
